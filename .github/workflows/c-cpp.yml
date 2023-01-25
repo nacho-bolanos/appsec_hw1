@@ -16,7 +16,7 @@ jobs:
     - name: hello world
       run: echo "Hello World"
     - name: test example
-      run: ./giftcardreader 1 examplefile.gft
+      run: ls && ./giftcardreader 1 examplefile.gft
     # - name: configure
     #   run: ./configure
     # - name: make
