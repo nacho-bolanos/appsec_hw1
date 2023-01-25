@@ -16,7 +16,7 @@ jobs:
     - name: hello world
       run: echo "Hello World"
     - name: test example
-      run: "./$HOME/Documents/NYU/8th Semester/App Sec/Unit1/appsec_hw1/giftcardreader" 1 examplefile.gft
+      run: ./giftcardreader 1 examplefile.gft
     # - name: configure
     #   run: ./configure
     # - name: make
