@@ -18,7 +18,7 @@ jobs:
     - name: make
       run: make
     - name: test example
-      run: ls && ./giftcardreader 1 examplefile.gft
+      run: ./giftcardreader 1 examplefile.gft
     # - name: configure
     #   run: ./configure
     # - name: make check
